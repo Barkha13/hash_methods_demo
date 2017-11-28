@@ -5,6 +5,6 @@ puts new_hash.empty?
 new_hash.delete(:last_name)
 puts new_hash
 puts new_hash.has_key?(:first_name)
-puts new_hash
+puts new_hash.has_value?("Bob")
 
 
